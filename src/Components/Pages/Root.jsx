@@ -2,7 +2,7 @@ import React, { createContext, useState } from 'react'
 import NavBar from './NavBar'
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Home from './Home'
-import { routes } from '../../routes/routes'
+import { routes } from '../../routes/Routes'
 
 
 export const AppContext = createContext();
